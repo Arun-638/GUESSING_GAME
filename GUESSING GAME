@@ -9,7 +9,7 @@ int enter2;
 int main(){
 srand(time(0));
 secret = rand()%21;
-cout<<secret<<endl;
+//cout<<secret<<endl; IF YOU WANT TO TEST IT YOU CAN UNCOMMENT THIS.
     cout<<"\n\tENTER YOUR GUESS : ";
     cin>>enter;
 do{
